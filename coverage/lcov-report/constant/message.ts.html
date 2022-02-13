@@ -1,0 +1,395 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Code coverage report for constant/message.ts</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../prettify.css" />
+    <link rel="stylesheet" href="../base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+    
+<body>
+<div class='wrapper'>
+    <div class='pad1'>
+        <h1><a href="../index.html">All files</a> / <a href="index.html">constant</a> message.ts</h1>
+        <div class='clearfix'>
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Statements</span>
+                <span class='fraction'>1/1</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Branches</span>
+                <span class='fraction'>0/0</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Functions</span>
+                <span class='fraction'>0/0</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Lines</span>
+                <span class='fraction'>1/1</span>
+            </div>
+        
+            
+        </div>
+        <p class="quiet">
+            Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
+        </p>
+    </div>
+    <div class='status-line high'></div>
+    <pre><table class="coverage">
+<tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
+<a name='L2'></a><a href='#L2'>2</a>
+<a name='L3'></a><a href='#L3'>3</a>
+<a name='L4'></a><a href='#L4'>4</a>
+<a name='L5'></a><a href='#L5'>5</a>
+<a name='L6'></a><a href='#L6'>6</a>
+<a name='L7'></a><a href='#L7'>7</a>
+<a name='L8'></a><a href='#L8'>8</a>
+<a name='L9'></a><a href='#L9'>9</a>
+<a name='L10'></a><a href='#L10'>10</a>
+<a name='L11'></a><a href='#L11'>11</a>
+<a name='L12'></a><a href='#L12'>12</a>
+<a name='L13'></a><a href='#L13'>13</a>
+<a name='L14'></a><a href='#L14'>14</a>
+<a name='L15'></a><a href='#L15'>15</a>
+<a name='L16'></a><a href='#L16'>16</a>
+<a name='L17'></a><a href='#L17'>17</a>
+<a name='L18'></a><a href='#L18'>18</a>
+<a name='L19'></a><a href='#L19'>19</a>
+<a name='L20'></a><a href='#L20'>20</a>
+<a name='L21'></a><a href='#L21'>21</a>
+<a name='L22'></a><a href='#L22'>22</a>
+<a name='L23'></a><a href='#L23'>23</a>
+<a name='L24'></a><a href='#L24'>24</a>
+<a name='L25'></a><a href='#L25'>25</a>
+<a name='L26'></a><a href='#L26'>26</a>
+<a name='L27'></a><a href='#L27'>27</a>
+<a name='L28'></a><a href='#L28'>28</a>
+<a name='L29'></a><a href='#L29'>29</a>
+<a name='L30'></a><a href='#L30'>30</a>
+<a name='L31'></a><a href='#L31'>31</a>
+<a name='L32'></a><a href='#L32'>32</a>
+<a name='L33'></a><a href='#L33'>33</a>
+<a name='L34'></a><a href='#L34'>34</a>
+<a name='L35'></a><a href='#L35'>35</a>
+<a name='L36'></a><a href='#L36'>36</a>
+<a name='L37'></a><a href='#L37'>37</a>
+<a name='L38'></a><a href='#L38'>38</a>
+<a name='L39'></a><a href='#L39'>39</a>
+<a name='L40'></a><a href='#L40'>40</a>
+<a name='L41'></a><a href='#L41'>41</a>
+<a name='L42'></a><a href='#L42'>42</a>
+<a name='L43'></a><a href='#L43'>43</a>
+<a name='L44'></a><a href='#L44'>44</a>
+<a name='L45'></a><a href='#L45'>45</a>
+<a name='L46'></a><a href='#L46'>46</a>
+<a name='L47'></a><a href='#L47'>47</a>
+<a name='L48'></a><a href='#L48'>48</a>
+<a name='L49'></a><a href='#L49'>49</a>
+<a name='L50'></a><a href='#L50'>50</a>
+<a name='L51'></a><a href='#L51'>51</a>
+<a name='L52'></a><a href='#L52'>52</a>
+<a name='L53'></a><a href='#L53'>53</a>
+<a name='L54'></a><a href='#L54'>54</a>
+<a name='L55'></a><a href='#L55'>55</a>
+<a name='L56'></a><a href='#L56'>56</a>
+<a name='L57'></a><a href='#L57'>57</a>
+<a name='L58'></a><a href='#L58'>58</a>
+<a name='L59'></a><a href='#L59'>59</a>
+<a name='L60'></a><a href='#L60'>60</a>
+<a name='L61'></a><a href='#L61'>61</a>
+<a name='L62'></a><a href='#L62'>62</a>
+<a name='L63'></a><a href='#L63'>63</a>
+<a name='L64'></a><a href='#L64'>64</a>
+<a name='L65'></a><a href='#L65'>65</a>
+<a name='L66'></a><a href='#L66'>66</a>
+<a name='L67'></a><a href='#L67'>67</a>
+<a name='L68'></a><a href='#L68'>68</a>
+<a name='L69'></a><a href='#L69'>69</a>
+<a name='L70'></a><a href='#L70'>70</a>
+<a name='L71'></a><a href='#L71'>71</a>
+<a name='L72'></a><a href='#L72'>72</a>
+<a name='L73'></a><a href='#L73'>73</a>
+<a name='L74'></a><a href='#L74'>74</a>
+<a name='L75'></a><a href='#L75'>75</a>
+<a name='L76'></a><a href='#L76'>76</a>
+<a name='L77'></a><a href='#L77'>77</a>
+<a name='L78'></a><a href='#L78'>78</a>
+<a name='L79'></a><a href='#L79'>79</a>
+<a name='L80'></a><a href='#L80'>80</a>
+<a name='L81'></a><a href='#L81'>81</a>
+<a name='L82'></a><a href='#L82'>82</a>
+<a name='L83'></a><a href='#L83'>83</a>
+<a name='L84'></a><a href='#L84'>84</a>
+<a name='L85'></a><a href='#L85'>85</a>
+<a name='L86'></a><a href='#L86'>86</a>
+<a name='L87'></a><a href='#L87'>87</a>
+<a name='L88'></a><a href='#L88'>88</a>
+<a name='L89'></a><a href='#L89'>89</a>
+<a name='L90'></a><a href='#L90'>90</a>
+<a name='L91'></a><a href='#L91'>91</a>
+<a name='L92'></a><a href='#L92'>92</a>
+<a name='L93'></a><a href='#L93'>93</a>
+<a name='L94'></a><a href='#L94'>94</a>
+<a name='L95'></a><a href='#L95'>95</a>
+<a name='L96'></a><a href='#L96'>96</a>
+<a name='L97'></a><a href='#L97'>97</a>
+<a name='L98'></a><a href='#L98'>98</a>
+<a name='L99'></a><a href='#L99'>99</a>
+<a name='L100'></a><a href='#L100'>100</a>
+<a name='L101'></a><a href='#L101'>101</a>
+<a name='L102'></a><a href='#L102'>102</a>
+<a name='L103'></a><a href='#L103'>103</a>
+<a name='L104'></a><a href='#L104'>104</a>
+<a name='L105'></a><a href='#L105'>105</a>
+<a name='L106'></a><a href='#L106'>106</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">export const ApplicationConstant = {
+  MELD: "Meld",
+  WELCOME: "Welcome to Meld",
+  NOTIFIACTIONS: "Notifications",
+  BE_IN_CONTROL: "Be in control of your data",
+  GUIDE_TO_TRANSPERANCY: "Your guide to data transparency.",
+  HOW_DOES_MELD_WORK: "How does Meld work?",
+  MODAL_HAS_BEEN_CLOSED: "Modal has been closed.",
+  LOGIN_CONNECT_YOUR_FIRST_DATA_SOURCE:
+    "LOGIN &amp; CONNECT YOUR FIRST DATA SOURCE",
+  ACCEPT_EPSILON_TERMS_CONDITIONS:
+    "By continuing you are accepting Eplsion terms and conditions",
+  MELD_SHOWS_DIFFERENT_SERVICES_KNOW_ABOUT_YOU:
+    "Meld shows you what different services know about you.",
+  MELD_ADVICE_CHANGE_PRIVACY_SETTINGS:
+    "Meld advices how you can change your privacy settings to match the level of privacy you want.",
+  MELD_KEEPS_EYE_AND_ALERTS:
+    "Meld keeps an eye on your data and how it is used and alerts on suspicious activities.",
+  MELD_DONOT_COPY_DATA:
+    "Meld is not copying or storing your data. if you connect services to Meld, it scans the headers of the data," +
+    " but not the data itself.",
+  ERROR_IN_READING_VALUE_FROM_STORE:
+    "Error in getting values from Async Storage",
+  ERROR_IN_STORING_VALUE_TO_STORE: "Error in storing to Async storage: ",
+  CONNECT_MORE_SERVICE: "Connect more services",
+  CONNECT_TO_LEARN_AND_MONITOR:
+    "Connect to services to learn what data they collect from you &amp; start monitoring your data",
+  E_COM_CONSUMER_SERVICE: "E-com and consumer services",
+  REPORT_USE_OF_MY_DATA: "Report the use of My Data",
+  NOTIFY_WHEN_ALERTS: "Notify when alerts",
+  WEEKLY_SUMMARY: "Weekly Summary",
+  MONTHLY_SUMMARY: "Monthly Summary",
+  MONITORED_ACTIVITY: "Monitored Activity",
+  CONNECTED_SERVICES: "Connected Services",
+  REMOVE_FROM_MELD: "REMOVE FROM MELD",
+  OKAY_GOT_IT: "OKAY, GOT IT!",
+  MELD_ID_FROM_STORAGE: "meldId from storage: ",
+  SCRAP_DATA_FROM_STORAGE: "scrappedData from storage: ",
+  DATA_ITEMS: "DATA ITEMS",
+  WHERE_IS_YOUR_DATA: "Where is your data?",
+  LOADING: "Loading...",
+  LOREM_IPSUM: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  VIVAMUS:
+    "Vivamus augue sapien, egestas in libero vitae, hendrerit lobortisest. Etiam maximus mi diam, id euismod lectus auctor" +
+    " vel. Duisblandit a quam non faucibus. Quisque euismod enim quis antefaucibus, ut ullamcorper urna pharetra.",
+  WHO_IS_USING_YOUR_DATA: "Who is using your data ?",
+  FLAG_ISSUE: "Flag the issue to service provider &amp; community",
+  TODAY: "Today",
+  IDENTIFY_DATA: "Identify Data",
+  PEOPLE_MATTER_MOST: "People Who Matter Most to You",
+  ADS_YOU_FIND_USEFULL: "Ads You find most useful",
+  COOKIES: "Cookies",
+  THINKS_YOU_CREATE: "Thinks You Create or Provide",
+  GOOGLE_SEARCH: "Google Search",
+  GMAIL: "Gmail",
+  YOUTUBE: "Youtube",
+  HANGOUTS: "Hangouts",
+  GOOGLE_MAPS: "Google Maps",
+  GOOGLE_KEEP: "Google Keep",
+  ANALYSE_YOUR_DATA_GOOGLE: "Analyzing your data from Google ...",
+  INSIGHTS_ABOUT_GOOGLE:
+    "Are you ready to hear our insights on what Google knows about you?",
+  DONE: "Done!",
+  GOOGLE_ACTIVITY:
+    "Google Activity helps Google to make services more useful for you, like helping you rediscover the things" +
+    " that you've searched for, read and watched",
+  PLAY_GROUND: "playground",
+  YOU_ARE_IN_GOOD_HANDS: "You are in good hands",
+  MELD_COLLECTS_MINIMUM_INFO: "Meld collects only minimum information from you.",
+  MELD_BELIEVES_PRIVACY_FUNDAMENTAL_HUMAN_RIGHT: "Meld believes privacy is a fundamental human right.",
+  MELD_DESIGNED_TO_PROVIDE_TRANSPARENCY: "Meld is designed to provide transparency and control over your data.",
+  CONTINUE: "continue",
+  HOW_MELD_WORKS: "How meld works?",
+  SIGN_IN_WITH_GOOGLE: "Sign in with Google",
+  INVALID_CREDENTIALS: "Invalid Credentials",
+  EMAIL_ADDRESS: "Email address",
+  PASSWORD: "Password",
+  FORGOT_PASSWORD: "Forgot password?",
+  LOGIN: "login",
+  SHOW_PASSWORD: "Show password",
+  SIGNUP_FOR_MELD: "Sign up for Meld",
+  NO_MELD_ACCOUNT_YET: "No Meld account yet?",
+  LOOK_INTO_YOUR_INBOX: "Look into your inbox",
+  MELD_HAS_SENT_EMAIL_VERIFICATION: "Meld has sent email verification link to:",
+  EDIT_EMAIL: "Edit email",
+  GO_TO_EMAIL_AND_CLICK: "Go to your email and click",
+  VERIFY_EMAIL: "Verify email",
+  DID_NOT_RECEIVE_THE_LINK: "Did not receive the link?",
+  IT_CAN_TAKE_UPTO_2MIN: "It can take up to 2 mins to arrive.",
+  TERMS_OF_SERVICE: "Terms of service",
+  MELD_IS_FULLY_TRANSPARENT_ABOUT_DATA: "Meld is fully transparent about the data we collect about you.",
+  ALL_YOUR_INFO_STORED_ENCRYPTED: "All your information is stored and handled confidentially and encrypted.",
+  YOUR_DATA_NOT_SOLD_TO_3RD_PARTY: "Your data is not sold to 3rd parties.",
+  WE_WILL_KEEP_YOU_INFORMED: "We will keep you informed what data we are collecting as you use the service.",
+  SIGNING_UP_WITH_MELD: "E.g.  Signing up with Meld we collect",
+  YOUR_MELD_EMAIL_ADDRESS: "Your e-mail address",
+  YOUR_MELD_PASSWORD: "Your Meld password",
+  BY_CONTINUING_I_AGREE_TO_MELD: "By continuing I agree to Meld",
+  PRIVACY_POLICY: "Privacy policy.",
+  AND_WITH_SPACE: " and ",
+  WELCOME_TO_MELD: "Welcome to Meld!",
+  YOUR_DATA_IS_YOURS_TO_CONTROL: "Your data is yours to control.",
+  ACCOUNT_ALREADY_EXISTS: "Account already exists",
+  EMAIL_IS_ALREADY_REGISTERED_DESC: "This email is already registered to Meld.\n\nUse the login instead."
+};
+&nbsp;</pre></td></tr></table></pre>
+
+                <div class='push'></div><!-- for sticky footer -->
+            </div><!-- /wrapper -->
+            <div class='footer quiet pad2 space-top1 center small'>
+                Code coverage generated by
+                <a href="https://istanbul.js.org/" target="_blank">istanbul</a>
+                at Sat Feb 12 2022 22:48:50 GMT-0900 (Alaska Standard Time)
+            </div>
+        </div>
+        <script src="../prettify.js"></script>
+        <script>
+            window.onload = function () {
+                prettyPrint();
+            };
+        </script>
+        <script src="../sorter.js"></script>
+        <script src="../block-navigation.js"></script>
+    </body>
+</html>
+    

@@ -1,4 +1,4 @@
-name: 'Commit Message Check'
+name: 'Commit Message Check1'
 
 on:
   push:

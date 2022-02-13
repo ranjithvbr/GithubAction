@@ -3,7 +3,7 @@ name: 'Commit Message Check2'
 on:
   push:
     branches:
-      - main
+      - development
       - 'releases/*'
 
 jobs:

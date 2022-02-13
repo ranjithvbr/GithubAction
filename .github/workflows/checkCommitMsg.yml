@@ -2,9 +2,9 @@ name: 'Commit Message Check2'
 
 on:
   push:
-    branches: [ development ]
-  pull_request:
-    branches: [ development ]
+    branches:
+      - main
+      - 'releases/*'
 
 jobs:
   check-commit-message:

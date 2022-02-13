@@ -1,4 +1,4 @@
-# git add . && git commit -m "BUGFIX: Test" && git push origin development
+# git add . && git commit -m "[BUGFIX] Test" && git push origin development
 
 name: 'Commit Message Check2'
 

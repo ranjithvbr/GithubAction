@@ -1,7 +1,7 @@
 # This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 
-# git add . && git commit -m "commit 29" && git push origin development
+# git add . && git commit -m "commit 31" && git push origin development
 
 name: CI/CD
 
@@ -25,9 +25,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'yarn'
-    - name: Build
     - run: yarn install
-    - name: Unit Test
     - run: yarn test --silent
-    - name: Lint
     - run: yarn eslint src

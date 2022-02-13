@@ -27,6 +27,6 @@ jobs:
         cache: 'yarn'
     - run: yarn install
     - name: install dependencies
-      run: yarn ci --ignore-scripts
+      run: yarn ci
     - run: yarn test --coverage
     - run: yarn eslint src

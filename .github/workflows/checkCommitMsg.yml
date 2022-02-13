@@ -1,4 +1,4 @@
-name: CI/CD
+name: 'Commit Message Check'
 
 on:
   push:

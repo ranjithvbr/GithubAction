@@ -1,4 +1,4 @@
-# git add . && git commit -m "commit 99" && git push origin checkBranch
+# git add . && git commit -m "commit 99" && git push origin feature/checkBranch
 
 name: 'Assert Branch Naming Convention'
 on: push

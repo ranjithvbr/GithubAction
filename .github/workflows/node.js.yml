@@ -1,7 +1,7 @@
 # git add . && git commit -m "commit 99" && git push origin branch1
 
 name: 'Assert Branch Naming Convention'
-on: pull_request
+on: push
 
 jobs:
   branch-naming-rules:

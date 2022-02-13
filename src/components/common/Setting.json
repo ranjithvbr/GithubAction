@@ -1,0 +1,173 @@
+{
+  "WelcomeBackData": [
+    {
+      "addedData": "Today",
+      "onDate": "",
+      "show": true,
+      "feilds": [
+        {
+          "key": "G",
+          "name": "Google",
+          "request": "Request for your location data",
+          "identity": "New service development",
+          "time": "11:33",
+          "colorCode": "#53A4FF"
+        },
+        {
+          "key": "Pd",
+          "name": "Public data",
+          "request": "Request for your identity data",
+          "identity": "Public transportation",
+          "time": "11:33",
+          "colorCode": "#947DF9"
+        }
+      ]
+    },
+    {
+      "addedData": "1 data request, 1 alert, 1 consent change ",
+      "onDate": "Yesterday",
+      "show": true,
+      "feilds": [
+        {
+          "key": "Pd",
+          "name": "Alert - Public data",
+          "request": "Request for your identity data",
+          "identity": "Public transportation",
+          "explanation": "Alert explanation",
+          "time": "Yesterday",
+          "colorCode": "#FEDADA"
+        },
+        {
+          "key": "",
+          "name": "Health data - Change in consent",
+          "request": "",
+          "identity": "",
+          "explanation": "You allowed Health center X to accessess yourmedical records",
+          "time": "Yesterday",
+          "colorCode": ""
+        },
+        {
+          "key": "G",
+          "name": "Google - Change in consent",
+          "request": "",
+          "identity": "",
+          "explanation": "You allowed Google to access your location",
+          "time": "Yesterday",
+          "colorCode": ""
+        }
+      ]
+    },
+    {
+      "addedData": "2 data request, 1 alert",
+      "onDate": "Sun 3rd Oct 2021",
+      "show": true,
+      "feilds": [
+        {
+          "key": "Pd",
+          "name": "Alert - Public data",
+          "request": "Request for your identity data",
+          "identity": "Public transportation",
+          "explanation": "Alert explanation",
+          "time": "Yesterday",
+          "colorCode": "#FEDADA"
+        },
+        {
+          "key": "",
+          "name": "Health data - Change in consent",
+          "request": "",
+          "identity": "",
+          "explanation": "You allowed Health center X to accessess yourmedical records",
+          "time": "Yesterday",
+          "colorCode": ""
+        },
+        {
+          "key": "G",
+          "name": "Google - Change in consent",
+          "request": "",
+          "identity": "",
+          "explanation": "You allowed Google to access your location",
+          "time": "Yesterday",
+          "colorCode": ""
+        }
+      ]
+    },
+    {
+      "addedData": "2 data request, 1 alert",
+      "onDate": "Sat 2nd Oct 2021",
+      "show": true,
+      "feilds": [
+        {
+          "key": "Pd",
+          "name": "Alert - Public data",
+          "request": "Request for your identity data",
+          "identity": "Public transportation",
+          "explanation": "Alert explanation",
+          "time": "Yesterday",
+          "colorCode": "#FEDADA"
+        },
+        {
+          "key": "",
+          "name": "Health data - Change in consent",
+          "request": "",
+          "identity": "",
+          "explanation": "You allowed Health center X to accessess yourmedical records",
+          "time": "Yesterday",
+          "colorCode": ""
+        },
+        {
+          "key": "G",
+          "name": "Google - Change in consent",
+          "request": "",
+          "identity": "",
+          "explanation": "You allowed Google to access your location",
+          "time": "Yesterday",
+          "colorCode": ""
+        }
+      ]
+    },
+    {
+      "addedData": "Started using Meld",
+      "onDate": "Thu 12th Sep 2021",
+      "show": true,
+      "feilds": []
+    }
+  ],
+
+  "FilterData": [
+    {
+      "name": "Notification types",
+      "feilds": [
+        {
+          "heading": "Alert",
+          "type": "",
+          "status": true
+        },
+        {
+          "heading": "Change in consent by you",
+          "type": "",
+          "status": true
+        },
+        {
+          "heading": "Activity",
+          "type": "",
+          "status": true
+        }
+      ]
+    },
+    {
+      "name": "Data providers",
+      "feilds": [
+        {
+          "heading": "Google",
+          "type": "Identity data, Location data, Privacy data, Mobility data",
+          "status": true
+        },
+        {
+          "heading": "Data Breach",
+          "type": "Personal identifying information",
+          "status": true
+        }
+      ]
+    }
+  ]
+}

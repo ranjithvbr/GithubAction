@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Insight Charts for strict mode where the user data has  webAndAppActivity On locationHistory On and youtubeHistory On,  renders correctly 1`] = `undefined`;
+
+exports[`Insight Charts renders correctly 1`] = `undefined`;

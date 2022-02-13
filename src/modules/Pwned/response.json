@@ -1,0 +1,242 @@
+[
+  {
+    "breached_controller_name": "GOOGLE",
+    "breached_repository_name": "https://haveibeenpwned.com",
+    "breached_date": "2019-02-24",
+    "description": "In February 2019, the education and game creation website <a href=\"https://www.zdnet.com/article/round-4-hacker-returns-and-puts-26mil-user-records-for-sale-on-the-dark-web/\" target=\"_blank\" rel=\"noopener\">Game Salad suffered a data breach</a>. The incident impacted 1.5M accounts and exposed email addresses, usernames, IP addresses and passwords stored as SHA-256 hashes. The data was provided to HIBP by a source who requested it be attributed to &quot;JimScott.Sec@protonmail.com&quot;.",
+    "identifier": "951a4ac9-12f2-4aa9-9c7f-db8cf82a9ad5",
+    "title": "GameSalad"
+  },
+  {
+    "breached_controller_name": "GOOGLE",
+    "breached_repository_name": "https://haveibeenpwned.com",
+    "breached_date": "2016-11-17",
+    "description": "In June 2017, news broke that <a href=\"https://motherboard.vice.com/en_us/article/bj8pvq/hackers-steal-6-million-user-accounts-for-cash-for-surveys-site\" target=\"_blank\" rel=\"noopener\">CashCrate had suffered a data breach exposing 6.8 million records</a>. The breach of the cash-for-surveys site dated back to November 2016 and exposed names, physical addresses, email addresses and passwords stored in plain text for older accounts along with weak MD5 hashes for newer ones.",
+    "identifier": "d2fc0128-aa3b-4ccf-991f-e8be459db2a7",
+    "title": "CashCrate"
+  },
+  {
+    "breached_controller_name": "GOOGLE",
+    "breached_repository_name": "https://haveibeenpwned.com",
+    "breached_date": "2018-07-05",
+    "description": "In mid-2018, the online photography community <a href=\"https://support.500px.com/hc/en-us/articles/360017752493-Security-Issue-February-2019-FAQ\" target=\"_blank\" rel=\"noopener\">500px suffered a data breach</a>. The incident exposed almost 15 million unique email addresses alongside names, usernames, genders, dates of birth and either an MD5 or bcrypt password hash. In 2019, <a href=\"https://www.theregister.co.uk/2019/02/11/620_million_hacked_accounts_dark_web/\" target=\"_blank\" rel=\"noopener\">the data appeared listed for sale on a dark web marketplace</a> (along with several other large breaches) and subsequently began circulating more broadly. The data was provided to HIBP by a source who requested it to be attributed to &quot;BenjaminBlue@exploit.im&quot;.",
+    "identifier": "65bb5416-2664-4b73-b149-872e2a7a1ffe",
+    "title": "500px"
+  },
+  {
+    "breached_controller_name": "GOOGLE",
+    "breached_repository_name": "https://haveibeenpwned.com",
+    "breached_date": "2018-08-07",
+    "description": "In mid-2018, the fashion shopping site <a href=\"https://www.theregister.co.uk/2019/02/11/620_million_hacked_accounts_dark_web/\" target=\"_blank\" rel=\"noopener\">HauteLook was among a raft of sites that were breached and their data then sold in early-2019</a>. The data included over 28 million unique email addresses alongside names, genders, dates of birth and passwords stored as bcrypt hashes. The data was provided to HIBP by <a href=\"https://dehashed.com/\" target=\"_blank\" rel=\"noopener\">dehashed.com</a>.",
+    "identifier": "1787e49a-60ba-408d-9700-b5e973d88e07",
+    "title": "HauteLook"
+  },
+  {
+    "breached_controller_name": "GOOGLE",
+    "breached_repository_name": "https://haveibeenpwned.com",
+    "breached_date": "2012-05-05",
+    "description": "In May 2016, <a href=\"https://www.troyhunt.com/observations-and-thoughts-on-the-linkedin-data-breach\" target=\"_blank\" rel=\"noopener\">LinkedIn had 164 million email addresses and passwords exposed</a>. Originally hacked in 2012, the data remained out of sight until being offered for sale on a dark market site 4 years later. The passwords in the breach were stored as SHA1 hashes without salt, the vast majority of which were quickly cracked in the days following the release of the data.",
+    "identifier": "9d64424b-df2c-4e07-9179-8766c1fab5e6",
+    "title": "LinkedIn"
+  },
+  {
+    "breached_controller_name": "GOOGLE",
+    "breached_repository_name": "https://haveibeenpwned.com",
+    "breached_date": "2017-01-01",
+    "description": "In January 2017, <a href=\"https://web.archive.org/web/20170426084052/https://mackeeper.com/blog/post/339-spammergate-the-fall-of-an-empire\" target=\"_blank\" rel=\"noopener\">a massive trove of data from River City Media was found exposed online</a>. The data was found to contain almost 1.4 billion records including email and IP addresses, names and physical addresses, all of which was used as part of an enormous spam operation. Once de-duplicated, there were 393 million unique email addresses within the exposed data.",
+    "identifier": "c4c5dc0f-a19a-42e6-8de5-546b94d7284e",
+    "title": "River City Media Spam List"
+  },
+  {
+    "breached_controller_name": "GOOGLE",
+    "breached_repository_name": "https://haveibeenpwned.com",
+    "breached_date": "2020-03-04",
+    "description": "In March 2020, <a href=\"https://www.troyhunt.com/the-unattributable-lead-hunter-data-breach\" target=\"_blank\" rel=\"noopener\">a massive trove of personal information referred to as &quot;Lead Hunter&quot;</a> was provided to HIBP after being found left exposed on a publicly facing Elasticsearch server. The data contained 69 million unique email addresses across 110 million rows of data accompanied by additional personal information including names, phone numbers, genders and physical addresses. At the time of publishing, the breach could not be attributed to those responsible for obtaining and exposing it. The data was provided to HIBP by <a href=\"https://dehashed.com/\" target=\"_blank\" rel=\"noopener\">dehashed.com</a>.",
+    "identifier": "9a1ac30d-5a2f-44be-af17-f5e8166f91dd",
+    "title": "Lead Hunter"
+  },
+  {
+    "breached_controller_name": "GOOGLE",
+    "breached_repository_name": "https://haveibeenpwned.com",
+    "breached_date": "2017-01-01",
+    "description": "In approximately January 2017, <a href=\"https://www.heise.de/security/meldung/Little-Monsters-Nutzerdaten-aus-Lady-Gagas-Social-Network-sollen-geleakt-sein-3646447.html\" target=\"_blank\" rel=\"noopener\">the Lady Gaga fan site known as &quot;Little Monsters&quot; suffered a data breach that impacted 1 million accounts</a>. The data contained usernames, email addresses, dates of birth and bcrypt hashes of passwords.",
+    "identifier": "518d43fb-5da1-4205-af60-64fd4494a39f",
+    "title": "Little Monsters"
+  },
+  {
+    "breached_controller_name": "GOOGLE",
+    "breached_repository_name": "https://haveibeenpwned.com",
+    "breached_date": "2018-02-19",
+    "description": "In February 2018, <a href=\"https://www.troyhunt.com/ive-just-added-2844-new-data-breaches-with-80m-records-to-have-i-been-pwned/\" target=\"_blank\" rel=\"noopener\">a massive collection of almost 3,000 alleged data breaches was found online</a>. Whilst some of the data had previously been seen in Have I Been Pwned, 2,844 of the files consisting of more than 80 million unique email addresses had not previously been seen. Each file contained both an email address and plain text password and were consequently loaded as a single &quot;unverified&quot; data breach.",
+    "identifier": "d1536ce7-84a8-4716-9856-da5034edb234",
+    "title": "2,844 Separate Data Breaches"
+  },
+  {
+    "breached_controller_name": "GOOGLE",
+    "breached_repository_name": "https://haveibeenpwned.com",
+    "breached_date": "2019-05-03",
+    "description": "In May 2019, the online food ordering service <a href=\"https://www.zdnet.com/article/eatstreet-food-ordering-service-discloses-security-breach/\" target=\"_blank\" rel=\"noopener\">EatStreet suffered a data breach affecting 6.4 million customers</a>. An extensive amount of personal data was obtained including names, phone numbers, addresses, partial credit card data and passwords stored as bcrypt hashes. The data was provided to HIBP by a source who requested it be attributed to &quot;JimScott.Sec@protonmail.com&quot;.",
+    "identifier": "da9dd847-b412-4616-a291-dbb0025531f2",
+    "title": "EatStreet"
+  },
+  {
+    "breached_controller_name": "GOOGLE",
+    "breached_repository_name": "https://haveibeenpwned.com",
+    "breached_date": "2020-06-29",
+    "description": "In June 2020, the user-generated stories website <a href=\"https://www.bleepingcomputer.com/news/security/wattpad-data-breach-exposes-account-info-for-millions-of-users/\" target=\"_blank\" rel=\"noopener\">Wattpad suffered a huge data breach that exposed almost 270 million records</a>. The data was initially sold then published on a public hacking forum where it was broadly shared. The incident exposed extensive personal information including names and usernames, email and IP addresses, genders, birth dates and passwords stored as bcrypt hashes.",
+    "identifier": "26b8e36e-45d8-4358-8357-496c83a5d59b",
+    "title": "Wattpad"
+  },
+  {
+    "breached_controller_name": "GOOGLE",
+    "breached_repository_name": "https://haveibeenpwned.com",
+    "breached_date": "2015-12-27",
+    "description": "In December 2015, the instant messaging application <a href=\"https://www.trillian.im/help/trillian-blog-and-forums-security-incident/\" target=\"_blank\" rel=\"noopener\">Trillian suffered a data breach</a>. The breach became known in July 2016 and exposed various personal data attributes including names, email addresses and passwords stored as salted MD5 hashes.",
+    "identifier": "bd4aca3f-9d6a-4c36-81f1-0de1ce16b5af",
+    "title": "Trillian"
+  },
+  {
+    "breached_controller_name": "GOOGLE",
+    "breached_repository_name": "https://haveibeenpwned.com",
+    "breached_date": "2021-01-26",
+    "description": "In January 2021, over 11M unique email addresses were discovered by Night Lion Security alongside an extensive amount of personal information including names, physical and IP addresses, phone numbers and dates of birth. Some records also contained social security numbers, driver's license details, personal financial information and health-related data, depending on where the information was sourced from. Initially attributed to Astoria Company, <a href=\"https://astoriacompany.com/cyber-update/\" target=\"_blank\" rel=\"noopener\">they subsequently investigated the incident and confirmed the data did not originate from their services</a>.",
+    "identifier": "24f91a4a-3418-4689-9e38-6e89cc30cc1e",
+    "title": "Unverified Data Source"
+  },
+  {
+    "breached_controller_name": "GOOGLE",
+    "breached_repository_name": "https://haveibeenpwned.com",
+    "breached_date": "2020-06-22",
+    "description": "In June 2020, the online fragrance service <a href=\"https://www.bleepingcomputer.com/news/security/hacker-leaks-386-million-user-records-from-18-companies-for-free/\" target=\"_blank\" rel=\"noopener\">Scentbird suffered a data breach</a> that exposed the personal information of over 5.8 million customers. Personal information including names, email addresses, genders, dates of birth, passwords stored as bcrypt hashes and indicators of password strength were all exposed. The data was provided to HIBP by <a href=\"https://breachbase.pw/\" target=\"_blank\" rel=\"noopener\">breachbase.pw</a>.",
+    "identifier": "dc66ac8b-2dab-44e9-a8b2-8284dfc46765",
+    "title": "Scentbird"
+  },
+  {
+    "breached_controller_name": "GOOGLE",
+    "breached_repository_name": "https://haveibeenpwned.com",
+    "breached_date": "2019-10-10",
+    "description": "In October 2019, the Minnesota-based news service <a href=\"https://www.startribune.com/hacker-group-claims-to-have-stolen-star-tribune-user-information/570384542/\" target=\"_blank\" rel=\"noopener\">StarTribune suffered a data breach</a> which was subsequently sold on the dark web. The breach exposed over 2 million unique email addresses alongside names, usernames, physical addresses, dates of birth, genders and passwords stored as bcrypt hashes. The data was provided to HIBP by <a href=\"https://dehashed.com/\" target=\"_blank\" rel=\"noopener\">dehashed.com</a>.",
+    "identifier": "b2782f40-4166-4d91-8a8a-304e624416fd",
+    "title": "StarTribune"
+  },
+  {
+    "breached_controller_name": "GOOGLE",
+    "breached_repository_name": "https://haveibeenpwned.com",
+    "breached_date": "2019-07-01",
+    "description": "In 2019, online marketplace for trading stickers, cards, toys, and other collectibles <a href=\"https://www.zdnet.com/article/account-details-for-4-million-quidd-users-shared-on-hacking-forum/\" target=\"_blank\" rel=\"noopener\">Quidd suffered a data breach</a>. The breach exposed almost 4 million users' email addresses, usernames and passwords stored as bcrypt hashes. The data was subsequently sold then redistributed extensively via hacking forums.",
+    "identifier": "697a5bdc-bcd6-4a73-b003-e7da83b54cec",
+    "title": "Quidd"
+  },
+  {
+    "breached_controller_name": "GOOGLE",
+    "breached_repository_name": "https://haveibeenpwned.com",
+    "breached_date": "2019-07-27",
+    "description": "In July 2019, the children's gaming site <a href=\"https://community.cprewritten.net/\" target=\"_blank\" rel=\"noopener\">Club Penguin Rewritten</a> (CPRewritten) suffered a data breach (note: CPRewritten is an independent recreation of Disney's Club Penguin game). In addition to an earlier data breach that impacted 1.7 million accounts, the subsequent breach exposed 4 million unique email addresses alongside IP addresses, usernames and passwords stored as bcrypt hashes.",
+    "identifier": "b7acd2f8-47c7-4fc1-8811-a4c94c3da02e",
+    "title": "Club Penguin Rewritten (July 2019)"
+  },
+  {
+    "breached_controller_name": "GOOGLE",
+    "breached_repository_name": "https://haveibeenpwned.com",
+    "breached_date": "2018-05-07",
+    "description": "In May 2018, the South African website for viewing traffic fines online known as <a href=\"https://www.iafrikan.com/2018/05/24/south-africas-viewfines-suffered-major-data-leak/\" target=\"_blank\" rel=\"noopener\">ViewFines suffered a data breach</a>. Over 934k records containing 778k unique email addresses were exposed and included names, phone numbers, government issued IDs and passwords stored in plain text.",
+    "identifier": "9889cc55-9f0c-4b07-a69c-4d9a36635cfd",
+    "title": "ViewFines"
+  },
+  {
+    "breached_controller_name": "GOOGLE",
+    "breached_repository_name": "https://haveibeenpwned.com",
+    "breached_date": "2015-11-01",
+    "description": "In late 2015, the gaming website <a href=\"https://www.r2games.com\" target=\"_blank\" rel=\"noopener\">R2Games</a> was hacked and more than 2.1M personal records disclosed. The vBulletin forum included IP addresses and passwords stored as salted hashes using a weak implementation enabling many to be rapidly cracked. A further 11M accounts were added to \"Have I Been Pwned\" in March 2016 and another 9M in July 2016 bringing the total to over 22M.",
+    "identifier": "58a8f8e9-448d-4efd-ae7c-45c05907ee89",
+    "title": "R2Games"
+  },
+  {
+    "breached_controller_name": "GOOGLE",
+    "breached_repository_name": "https://haveibeenpwned.com",
+    "breached_date": "2018-05-23",
+    "description": "In mid-2018, the housing design website <a href=\"https://help.houzz.com/s/article/security-update?language=en_US\" target=\"_blank\" rel=\"noopener\">Houzz suffered a data breach</a>. The company learned of the incident later that year then disclosed it to impacted members in February 2019. Almost 49 million unique email addresses were in the breach alongside names, IP addresses, geographic locations and either salted hashes of passwords or links to social media profiles used to authenticate to the service. The data was provided to HIBP by <a href=\"https://dehashed.com/\" target=\"_blank\" rel=\"noopener\">dehashed.com</a>.",
+    "identifier": "0a296937-9f54-46f4-9e60-81778234514a",
+    "title": "Houzz"
+  },
+  {
+    "breached_controller_name": "GOOGLE",
+    "breached_repository_name": "https://haveibeenpwned.com",
+    "breached_date": "2020-06-25",
+    "description": "In June 2020, the hardware crypto wallet manufacturer <a href=\"https://www.ledger.com/addressing-the-july-2020-e-commerce-and-marketing-data-breach\" target=\"_blank\" rel=\"noopener\">Ledger suffered a data breach that exposed over 1 million email addresses</a>. The data was initially sold before being dumped publicly in December 2020 and included names, physical addresses and phone numbers. The data was provided to HIBP by <a href=\"https://twitter.com/UnderTheBreach\" target=\"_blank\" rel=\"noopener\">Alon Gal, CTO of cybercrime intelligence firm Hudson Rock</a>.",
+    "identifier": "9615fc88-7692-4c9a-8c86-b5a26cf38948",
+    "title": "Ledger"
+  },
+  {
+    "breached_controller_name": "GOOGLE",
+    "breached_repository_name": "https://haveibeenpwned.com",
+    "breached_date": "2012-01-01",
+    "description": "In approximately 2012, the Russian social media site known as <a href=\"http://motherboard.vice.com/read/another-day-another-hack-100-million-accounts-for-vk-russias-facebook\" target=\"_blank\" rel=\"noopener\">VK was hacked</a> and almost 100 million accounts were exposed. The data emerged in June 2016 where it was being sold via a dark market website and included names, phone numbers email addresses and plain text passwords.",
+    "identifier": "b7a5a0f6-9ce6-4286-9b14-00a4fc029282",
+    "title": "VK"
+  },
+  {
+    "breached_controller_name": "GOOGLE",
+    "breached_repository_name": "https://haveibeenpwned.com",
+    "breached_date": "2018-12-01",
+    "description": "In December 2018, the video messaging service <a href=\"https://www.theregister.co.uk/2019/02/11/620_million_hacked_accounts_dark_web/\" target=\"_blank\" rel=\"noopener\">Dubsmash suffered a data breach</a>. The incident exposed 162 million unique email addresses alongside usernames and PBKDF2 password hashes. In 2019, the data appeared listed for sale on a dark web marketplace (along with several other large breaches) and subsequently began circulating more broadly. The data was provided to HIBP by a source who requested it to be attributed to &quot;BenjaminBlue@exploit.im&quot;.",
+    "identifier": "445135e9-c3e8-4114-9fff-7a2411c0c344",
+    "title": "Dubsmash"
+  },
+  {
+    "breached_controller_name": "GOOGLE",
+    "breached_repository_name": "https://haveibeenpwned.com",
+    "breached_date": "2013-08-11",
+    "description": "In April 2019, the social planning website for managing online invitations <a href=\"https://www.evite.com/security/update?usource=lc&lctid=1800182\" target=\"_blank\" rel=\"noopener\">Evite identified a data breach of their systems</a>. Upon investigation, they found unauthorised access to a database archive dating back to 2013. The exposed data included a total of 101 million unique email addresses, most belonging to recipients of invitations. Members of the service also had names, phone numbers, physical addresses, dates of birth, genders and passwords stored in plain text exposed. The data was provided to HIBP by a source who requested it be attributed to &quot;JimScott.Sec@protonmail.com&quot;.",
+    "identifier": "146562b0-f555-4844-945b-4d312e0dae91",
+    "title": "Evite"
+  },
+  {
+    "breached_controller_name": "GOOGLE",
+    "breached_repository_name": "https://haveibeenpwned.com",
+    "breached_date": "2017-03-22",
+    "description": "In March 2017, a file containing 8M rows of data <a href=\"https://www.troyhunt.com/when-is-data-public-and-2-5m-public-factual-records\" target=\"_blank\" rel=\"noopener\">allegedly sourced from data aggregator Factual</a> was compiled and later exchanged on the premise it was a &quot;breach&quot;. The data contained 2.5M unique email addresses alongside business names, addresses and phone numbers. After consultation with Factual, they advised the data was &quot;publicly available information about businesses and other points of interest that Factual makes available on its website and to customers&quot;.",
+    "identifier": "3be0d4fc-854a-4d31-90e9-de860a2240ab",
+    "title": "Factual"
+  },
+  {
+    "breached_controller_name": "GOOGLE",
+    "breached_repository_name": "https://haveibeenpwned.com",
+    "breached_date": "2011-12-24",
+    "description": "In December 2011, &quot;Anonymous&quot; <a href=\"http://www.troyhunt.com/2011/12/5-website-security-lessons-courtesy-of.html\" target=\"_blank\" rel=\"noopener\">attacked the global intelligence company known as &quot;Stratfor&quot;</a> and consequently disclosed a veritable treasure trove of data including hundreds of gigabytes of email and tens of thousands of credit card details which were promptly used by the attackers to make charitable donations (among other uses). The breach also included 860,000 user accounts complete with email address, time zone, some internal system data and MD5 hashed passwords with no salt.",
+    "identifier": "79cde869-a653-44f7-85f9-768e6f7d8c69",
+    "title": "Stratfor"
+  },
+  {
+    "breached_controller_name": "GOOGLE",
+    "breached_repository_name": "https://haveibeenpwned.com",
+    "breached_date": "2017-08-28",
+    "description": "In August 2017, a spambot by the name of <a href=\"https://benkowlab.blogspot.com.au/2017/08/from-onliner-spambot-to-millions-of.html\" target=\"_blank\" rel=\"noopener\">Onliner Spambot was identified by security researcher Benkow moʞuƎq</a>. The malicious software contained a server-based component located on an IP address in the Netherlands which exposed a large number of files containing personal information. In total, there were 711 million unique email addresses, many of which were also accompanied by corresponding passwords. A full write-up on what data was found is in the blog post titled <a href=\"https://www.troyhunt.com/inside-the-massive-711-million-record-onliner-spambot-dump\" target=\"_blank\" rel=\"noopener\">Inside the Massive 711 Million Record Onliner Spambot Dump</a>.",
+    "identifier": "0384cb2b-689d-4aab-8faa-9891217cd988",
+    "title": "Onliner Spambot"
+  },
+  {
+    "breached_controller_name": "GOOGLE",
+    "breached_repository_name": "https://haveibeenpwned.com",
+    "breached_date": "2020-04-01",
+    "description": "In April 2020, the custom printed apparel website <a href=\"https://www.zdnet.com/article/hacker-leaks-data-of-millions-of-teespring-users/\" target=\"_blank\" rel=\"noopener\">Teespring suffered a data breach that exposed 8.2 million customer records</a>. The data included email addresses, names, geographic locations and social media IDs.",
+    "identifier": "69ae584c-9daf-4ccd-a38a-c378438b29cf",
+    "title": "Teespring"
+  },
+  {
+    "breached_controller_name": "GOOGLE",
+    "breached_repository_name": "https://haveibeenpwned.com",
+    "breached_date": "2013-09-01",
+    "description": "In September 2013, the Indian bookings website known as <a href=\"https://www.yatra.com/\" target=\"_blank\" rel=\"noopener\">Yatra</a> had 5 million records exposed in a data breach. The data contained email and physical addresses, dates of birth and phone numbers along with both PINs and passwords stored in plain text. The site was previously reported as compromised on the <a href=\"https://vigilante.pw/\" target=\"_blank\" rel=\"noopener\">Vigilante.pw</a> breached database directory.",
+    "identifier": "1d67f565-2455-47b9-b2f9-eda20bbe328d",
+    "title": "Yatra"
+  },
+  {
+    "breached_controller_name": "GOOGLE",
+    "breached_repository_name": "https://haveibeenpwned.com",
+    "breached_date": "2018-02-01",
+    "description": "In February 2018, the diet and exercise service <a href=\"https://content.myfitnesspal.com/security-information/FAQ.html\" target=\"_blank\" rel=\"noopener\">MyFitnessPal suffered a data breach</a>. The incident exposed 144 million unique email addresses alongside usernames, IP addresses and passwords stored as SHA-1 and bcrypt hashes (the former for earlier accounts, the latter for newer accounts). In 2019, <a href=\"https://www.theregister.co.uk/2019/02/11/620_million_hacked_accounts_dark_web/\" target=\"_blank\" rel=\"noopener\">the data appeared listed for sale on a dark web marketplace</a> (along with several other large breaches) and subsequently began circulating more broadly. The data was provided to HIBP by a source who requested it to be attributed to &quot;BenjaminBlue@exploit.im&quot;.",
+    "identifier": "1eb3d027-720b-4a7b-a275-0e1f22cf0d4f",
+    "title": "MyFitnessPal"
+  }
+]

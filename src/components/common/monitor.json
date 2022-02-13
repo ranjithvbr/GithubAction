@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "Source": "Google",
+      "show": true,
+      "Type": "Alert",
+      "Usage_Purpose": "Service/Product Fulfillment",
+      "Summary": "You allowed CompanyX to access your location",
+      "Description": "Data collected under this purpose is used to provide a service or allow a product to function. For example, a transport company requires your location data to be able to fulfill its obligations to the customer"
+    },
+    {
+      "Source": "Google",
+      "show": true,
+      "Type": "Activity",
+      "Usage_Purpose": "Product/Service R&D",
+      "Summary": "You shared your biometrics data with Warby Parker",
+      "Description": "Data is used to innovate and develop new products and services"
+    },
+    {
+      "Source": "Data Breach",
+      "show": true,
+      "Type": "public",
+      "Usage_Purpose": "Alert when Account Data is Breached",
+      "Summary": "Your account data has been breached",
+      "Description": "Identifies the data controllers where your account data has been breached"
+    }
+  ]
+}

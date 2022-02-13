@@ -1,0 +1,126 @@
+{
+  "googleActivityData": [
+    {
+      "webAppActivity_On": {
+        "sliderValue": "On",
+        "dataAssets": "Website activity",
+        "dataCategory": "Digital Footprint Data",
+        "confidentiality": "Restricted",
+        "purposeCategories": "Service/Product Fulfillment",
+        "processingTypes": ["Collection", "Use"],
+        "durationType": "open-ended",
+        "servicesUsed": ["Google Search", "Google Ads"]
+      },
+      "webAppActivity_Off": {
+        "sliderValue": "Paused",
+        "dataAssets": "Website activity",
+        "dataCategory": "Digital Footprint Data",
+        "confidentiality": "Confidential",
+        "purposeCategories": "Service/Product Fulfillment",
+        "processingTypes": ["Collection", "Use"],
+        "durationType": "open-ended",
+        "servicesUsed": ["Google Search", "Google Ads"]
+      },
+      "browsingHistory_true": {
+        "sliderValue": "Checked",
+        "dataAssets": "BrowsingHistory",
+        "dataCategory": "Digital Footprint Data",
+        "confidentiality": "Restricted",
+        "purposeCategories": "Service/Product Fulfillment",
+        "processingTypes": ["Collection", "Use"],
+        "durationType": "open-ended",
+        "servicesUsed": ["Google Search", "Google Ads"]
+      },
+      "browsingHistory_false": {
+        "sliderValue": "UnChecked",
+        "dataAssets": "BrowsingHistory",
+        "dataCategory": "Digital Footprint Data",
+        "confidentiality": "Confidential",
+        "purposeCategories": "Service/Product Fulfillment",
+        "processingTypes": ["Collection", "Use"],
+        "durationType": "open-ended",
+        "servicesUsed": ["Google Search", "Google Ads"]
+      },
+      "audioRecordings_true": {
+        "sliderValue": "Checked",
+        "dataAssets": "Audio Recordings",
+        "dataCategory": "Digital Footprint Data",
+        "confidentiality": "Restricted",
+        "purposeCategories": "Service/Product Fulfillment",
+        "processingTypes": ["Collection", "Use"],
+        "durationType": "open-ended",
+        "servicesUsed": ["Google Search", "Google Ads"]
+      },
+      "audioRecordings_false": {
+        "sliderValue": "UnChecked",
+        "dataAssets": "Audio Recordings",
+        "dataCategory": "Digital Footprint Data",
+        "confidentiality": "Confidential",
+        "purposeCategories": "Service/Product Fulfillment",
+        "processingTypes": ["Collection", "Use"],
+        "durationType": "open-ended",
+        "servicesUsed": ["Google Search", "Google Ads"]
+      },
+      "locationHistory_On": {
+        "sliderValue": "On",
+        "dataAssets": "Geographic locations",
+        "dataCategory": "Digital Footprint Data",
+        "confidentiality": "Restricted",
+        "purposeCategories": "Service/Product Fulfillment",
+        "processingTypes": ["Collection", "Use"],
+        "durationType": "open-ended",
+        "servicesUsed": ["Google Maps"]
+      },
+      "locationHistory_Off": {
+        "sliderValue": "Off",
+        "dataAssets": "Geographic locations",
+        "dataCategory": "Digital Footprint Data",
+        "confidentiality": "Confidential",
+        "purposeCategories": "Service/Product Fulfillment",
+        "processingTypes": ["Collection", "Use"],
+        "durationType": "open-ended",
+        "servicesUsed": ["Google Maps"]
+      },
+      "addsOnGoogle_On": {
+        "sliderValue": "On",
+        "dataAssets": "Personal Interests",
+        "dataCategory": "Lifestyle & Health data",
+        "confidentiality": "Restricted",
+        "purposeCategories": "Service/Product Fulfillment",
+        "processingTypes": ["Collection", "Use"],
+        "durationType": "open-ended",
+        "servicesUsed": ["Google Ads"]
+      },
+      "addsOnGoogle_Off": {
+        "sliderValue": "Off",
+        "dataAssets": "Personal Interests",
+        "dataCategory": "Lifestyle & Health data",
+        "confidentiality": "Confidential",
+        "purposeCategories": "Service/Product Fulfillment",
+        "processingTypes": ["Collection", "Use"],
+        "durationType": "open-ended",
+        "servicesUsed": ["Google Ads"]
+      },
+      "adsOnPartnerSites_On": {
+        "sliderValue": "On",
+        "dataAssets": "Personal Interests",
+        "dataCategory": "Personal Interests",
+        "confidentiality": "Restricted",
+        "purposeCategories": "Service/Product Fulfillment",
+        "processingTypes": ["Collection", "Use"],
+        "durationType": "open-ended",
+        "servicesUsed": ["Google Ads"]
+      },
+      "adsOnPartnerSites_Off": {
+        "sliderValue": "Off",
+        "dataAssets": "Personal Interests",
+        "dataCategory": "Personal Interests",
+        "confidentiality": "Confidential",
+        "purposeCategories": "Service/Product Fulfillment",
+        "processingTypes": ["Collection", "Use"],
+        "durationType": "open-ended",
+        "servicesUsed": ["Google Ads"]
+      }
+    }
+  ]
+}

@@ -1,10 +1,12 @@
-name: CI/CD
+# git add . && git commit -m "[BUGFIX] Throw HttpStatusExceptions in BackendController" && git push origin Test1
+
+name: 'Commit Message Check2'
 
 on:
   push:
-    branches: [ development ]
-  pull_request:
-    branches: [ development ]
+    branches:
+      - development
+      - 'releases/*'
 
 jobs:
   check-commit-message:

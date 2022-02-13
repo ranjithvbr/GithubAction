@@ -1,4 +1,4 @@
-# git add . && git commit -m "[BUGFIX] Throw HttpStatusExceptions in BackendController" && git push origin Test4
+# git add . && git commit -m "[BUGFI] Throw HttpStatusExceptions in BackendController" && git push origin Test4
 
 name: 'Commit Message Check2'
 

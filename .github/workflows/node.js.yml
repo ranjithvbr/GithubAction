@@ -20,13 +20,13 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
     steps:
     - uses: actions/checkout@v2
-    - name: install dependencies
-      run: npm ci --ignore-scripts
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v2
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'yarn'
     - run: yarn install
+    - name: install dependencies
+      run: yarn ci --ignore-scripts
     - run: yarn test --coverage
     - run: yarn eslint src

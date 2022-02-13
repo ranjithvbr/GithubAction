@@ -17,19 +17,19 @@ runs-on: ${{matrix.os}}
 strategy:
 max-parallel: 24
 matrix:
-//Set which OS you want to run the builds and tests:
-os: [ubuntu-latest, macos-latest, windows-latest]
-//Set which node versions to run the build and tests:
-node-version: [12.x, 14.x]
-steps:
-- uses: actions/checkout@v2
-- name: Use Node.js ${{ matrix.node-version }}
-uses: actions/setup-node@v1
-with:
-node-version: ${{ matrix.node-version }}
+    # Set which OS you want to run the builds and tests:
+    os: [ubuntu-latest, macos-latest, windows-latest]
+    # Set which node versions to run the build and tests:
+    node-version: [12.x, 14.x]
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js ${{ matrix.node-version }}
+    uses: actions/setup-node@v1
+    with:
+    node-version: ${{ matrix.node-version }}
 
-- run: npm ci
-//before the first 'run' each "run" is a script from your project:
-- run: npm run prettier
-- run: npm run linter
-- run: npm test
+    - run: npm ci
+    # before the first 'run' each "run" is a script from your project:
+    - run: npm run prettier
+    - run: npm run linter
+    - run: npm test

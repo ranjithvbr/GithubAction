@@ -3,6 +3,7 @@ on: push
 
 jobs:
   branch-naming-rules:
+    name: BranchName
     runs-on: ubuntu-latest
     steps:
       - uses: deepakputhraya/action-branch-name@master
